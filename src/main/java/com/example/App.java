@@ -1,8 +1,12 @@
 package com.example;
 
 public class App {
+    public static int add(int a, int b) {
+        return a + b;
+    }
+
     public static void main(String[] args) {
-        int sum = 2 + 3;
-        System.out.println("The sum of 2 + 3 is: " + sum);
+        System.out.println("Addition: " + add(2, 3));
     }
 }
+
